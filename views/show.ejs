@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>This is the weather for zipcode <%=newZipCode %></h2>
-    <h1> <%=weatherData.weather[0].main %></h1>
+    <h1>This is the weather for <%=newZipCode %></h1>
+    <h2> City name: <%=weatherData.name %></h2>
+    <h2> Temperature: <%=weatherData.main.temp %></h2>
+    <h2> Weacher: <%=weatherData.weather[0].main %></h2>
+    <a href="/"> Go back to home! </a>
 </body>
 </html>
